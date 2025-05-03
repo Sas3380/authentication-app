@@ -23,8 +23,8 @@ A full-stack authentication system built using Node.js, Express, PostgreSQL, and
 1. Make sure PostgreSQL is installed and running on your local machine.
 2. Create a new PostgreSQL database. Use the file db.sql to create a table in PostgreSQL
 
-Use the following sql code to create a user table using postgreql 
-CREATE TABLE users (
+Use the following sql code to create a user table using postgreql  \n
+CREATE TABLE users (\n
   id SERIAL PRIMARY KEY,
   email VARCHAR(255) UNIQUE NOT NULL,
   password VARCHAR(255) NOT NULL
